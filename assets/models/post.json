@@ -1,0 +1,6 @@
+{
+  "userId": "NUMBER",
+  "id": "NUMBER",
+  "title": "STRING",
+  "body": "STRING"
+}
