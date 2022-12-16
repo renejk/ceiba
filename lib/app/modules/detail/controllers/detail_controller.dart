@@ -24,16 +24,13 @@ class DetailController extends GetxController {
 
     // get from hive
     postsAll.value = await postHiveService.getPostsByUserId(user!.id!);
-    print("get from hive ${postsAll.length}");
 
     if (postsAll.isEmpty) {
       // get from api
       final data = await postService.getPostsByUserId(user!.id!);
       postsAll.value = data;
-      print("get from api ${postsAll.length}");
     }
     posts.addAll(postsAll);
-    print(postsAll.first.body);
     saveUserLocal(postsAll);
     loading.value = false;
   }

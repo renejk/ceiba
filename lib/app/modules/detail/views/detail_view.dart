@@ -1,7 +1,5 @@
-import 'package:ceiba/app/models/post.dart';
 import 'package:ceiba/app/modules/detail/widgets/card_post.dart';
 import 'package:ceiba/app/modules/detail/widgets/card_title.dart';
-import 'package:ceiba/app/modules/home/widgets/card_contact.dart';
 import 'package:ceiba/app/modules/home/widgets/loading.dart';
 import 'package:ceiba/app/utils/palette.dart';
 import 'package:flutter/material.dart';

@@ -1,4 +1,3 @@
-import 'package:ceiba/app/models/user.dart';
 import 'package:ceiba/app/modules/detail/controllers/detail_controller.dart';
 import 'package:ceiba/app/utils/palette.dart';
 import 'package:flutter/material.dart';

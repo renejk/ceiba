@@ -17,7 +17,6 @@ class PostHiveService {
 
   // get all post by user id
   Future<List<Post>> getPostsByUserId(int id) async {
-    print('id: $id');
     final data = box.values.toList();
     final response = data.where((element) => element.userId == id).toList();
     if (response.isNotEmpty) {
